@@ -7,5 +7,5 @@ It's a trick problem because there are over 1200 features and less than 1000 sam
 
 ### Notebooks in this repo
 
-* Exploratory analyis including dimensionality reduction and feature engineering. Some peptide concentrations have little influence, some are best as binary features (present or not present), and some are best as concentrations. Completed.
-* Training an LSTM: still in progress, with baseline model established.
+* *eda.ipynb*: Exploratory analyis including dimensionality reduction and feature engineering. Some peptide concentrations have little influence, some are best as binary features (present or not present), and some are best as concentrations. Completed.
+* *lstm.ipynb*: Training an LSTM: still in progress, with baseline model established.
