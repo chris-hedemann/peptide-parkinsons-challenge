@@ -1,13 +1,11 @@
 # peptide-parkinsons-challenge
 
-Over the next few weeks, I will be working on the current kaggle challenge on predicting Parkinson's disease and updating this repository as I go. I am happy for others to copy my code, so long as I am acknowledged https://github.com/chris-hedemann/.
-~C. Hedemann 26. April 2023
+This is a work in progress. As an exercise, I will be working on the current kaggle challenge on predicting Parkinson's disease and updating this repository as I go. See the link to the homepage
+https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction/overview
 
-### Plan
+It's a trick problem because there are over 1200 features and less than 1000 samples, so that the problem has a very high dimensionality and probably not enough data for training an NN. Nevertheless I am going to give training an LTSM NN a go.
 
-* An extensive EDA process to 
-  * reduce the number unnecessary peptides
-  * fill in the many missing values for the UPDRS Unified Parkinsons Disease Rating Scale, especially UPDRS IV
-* A Keras Long Short-Term Memory Network Baseline with a single layer as a baseline model for predicting future UPDRS scores based on in-serum peptide concentrations
-* Increasing layer number and complexity, including dropout layers
-* Programming pipelines to track model performance
+### Notebooks in this repo
+
+* Exploratory analyis including dimensionality reduction and feature engineering. Some peptide concentrations have little influence, some are best as binary features (present or not present), and some are best as concentrations. Completed.
+* Training an LSTM: still in progress, with baseline model established.
